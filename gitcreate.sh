@@ -3,10 +3,6 @@ echo Please Provide same Repo Name as provided before:
 
 read  name
 
-git config user.name mpendulo-mtn
-
-git init
-
 git add .
 
 git status

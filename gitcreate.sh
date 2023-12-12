@@ -1,7 +1,8 @@
-[11:21] Manokar, Sapna
-echo Please Provide same Repo Name as provided before:
+git config user.name mpendulo-mtn
 
-read  name
+git config user.email "mpendulo.sibiya@mtn.com"
+
+git init
 
 git add .
 
@@ -9,7 +10,7 @@ git status
 
 git commit -m "Generating new folder structure for Microservices"
 
-git remote add origin git@github.com:mpendulo-mtn/$name.git
+git remote add origin git@github.com:mpendulo-mtn/product.git
 
 git push -f origin main
 

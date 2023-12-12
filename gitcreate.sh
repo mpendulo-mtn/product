@@ -11,7 +11,7 @@ git commit -m "Generating new folder structure for Microservices"
 
 git remote add origin https://github.com/mpendulo-mtn/$name.git
 
-git push -f origin master
+git push -f origin main
 
 git checkout -b dev
 
@@ -21,6 +21,6 @@ git checkout -b stage
 
 git push -u origin stage
 
-git checkout master
+git checkout main
 
 bash

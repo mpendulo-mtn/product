@@ -9,7 +9,7 @@ git status
 
 git commit -m "Generating new folder structure for Microservices"
 
-git remote add origin https://github.com/mpendulo-mtn/$name.git
+git remote add origin git@github.com:mpendulo-mtn/$name.git
 
 git push -f origin main
 
